@@ -712,7 +712,7 @@ class _ShapeWithCenter(_Shape):
         # Clone the   center   argument, so that if the caller
         # mutates the argument, it does NOT affect this Shape.
         super().__init__(method_for_drawing)
-        self.center = center.clone()
+        self.center = center.
 
     def move_by(self, dx, dy):
         """
